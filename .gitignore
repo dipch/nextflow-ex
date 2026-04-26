@@ -1,3 +1,9 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# Nextflow runtime artifacts
+.nextflow/
+.nextflow.log*
+work/
+results/
