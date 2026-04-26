@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Dip Chowdhury <dipchry@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "nextflow-ex"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+python-dotenv = ">=1.2.2,<2"
+nextflow = ">=25.10.4,<26"
